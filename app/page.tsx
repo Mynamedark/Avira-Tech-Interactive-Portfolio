@@ -5,8 +5,9 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
 import { Services } from "@/components/sections/Services";
-import { Portfolio } from "@/components/sections/Portfolio";
+import { HowWeAreDifferent } from "@/components/sections/HowWeAreDifferent";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
+import { Portfolio } from "@/components/sections/Portfolio";
 import { Technologies } from "@/components/sections/Technologies";
 import { Blog } from "@/components/sections/Blog";
 import { Contact } from "@/components/sections/Contact";
@@ -23,9 +24,11 @@ export default function Home() {
         <div id="home"><Hero /></div>
         <div id="about"><About /></div>
         <div id="services"><Services /></div>
+        <HowWeAreDifferent />
         <WhyChooseUs />
         <div id="portfolio"><Portfolio /></div>
         <Technologies />
+        <div id="blog"><Blog /></div>
         <div id="contact"><Contact /></div>
       </div>
 
